@@ -14,7 +14,7 @@ const images = [
 const text = 
     <Text style={{ padding: 20, paddingBottom: 37, fontFamily: "Times New Roman", fontSize: 20 }}>   
         Overhead, the <Text style={{fontWeight: "bold"}}>Mexican blue fan palm (<Text style={{fontStyle: "italic"}}>Brahea armata</Text>) </Text>
-        is an example of a palmate leaf palm.
+        is an example of a palmate leaf palm, with radiating leaflets.
         {"\n"} {"\n"}
         <Text style={{fontWeight: "bold"}}>Palm leaves may also take a feather form, also known as pinnate.</Text>
         
@@ -28,7 +28,7 @@ const popUpText =
     </Text> 
 
 const map = require('../../images/map/14.jpg')
-const directions = <Text style={{ padding: 20, fontFamily: "Times New Roman", fontSize: 20 }}>Head towards the large green structure (aka Ruth’s Folly). Find Marker 15 on the left bank of the pond.</Text>
+const directions = <Text style={{ padding: 20, fontFamily: "Times New Roman", fontSize: 20 }}>Head towards the large green gazebo-like structure (AKA Ruth’s Folly). Find Marker 15 on the bank of the pond.</Text>
 
 
 export default function MarkerScreen({ navigation }) {

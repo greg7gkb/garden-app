@@ -5,7 +5,7 @@ import { ReactNativeZoomableView } from '@openspacelabs/react-native-zoomable-vi
 const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;
 
-const map = require('../images/map/Map.png');
+const map = require('../images/map/newMapCompass.jpg');
 const mapStyle = {
   resizeMode: "contain",
   height: height * 0.7, 
