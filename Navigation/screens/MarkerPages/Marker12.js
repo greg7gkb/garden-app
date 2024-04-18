@@ -13,10 +13,10 @@ const images = [
 ]
 const text = 
     <Text style={{ padding: 20, paddingBottom: 37, fontFamily: "Times New Roman", fontSize: 20 }}>   
-        On both sides of the path you will see <Text style={{fontWeight: "bold"}}>Ruth’s incredible use of color and texture </Text>
-        in the <Text style={{fontWeight: "bold"}}>groundcover tapestry of the blue-gray <Text style={{fontStyle: "italic"}}>Euphorbia rigida</Text>, 
-        purple <Text style={{fontStyle: "italic"}}>Tradescantia pallida ‘Purple Heart’</Text>, and 
-        bright green (to red) <Text style={{fontStyle: "italic"}}>Sedum rubrotinctum</Text>.</Text>
+        On both sides of the path you will see <Text style={{fontWeight: "bold"}}>Ruth's incredible use of color and texture </Text>
+        in the groundcover tapestry of the blue-gray <Text style={{fontWeight: "bold",fontStyle: "italic"}}>Euphorbia rigida</Text>, 
+        purple <Text style={{fontWeight: "bold",fontStyle: "italic"}}>Tradescantia pallida </Text>'Purple Heart', and 
+        bright green (to red) <Text style={{fontWeight: "bold", fontStyle: "italic"}}>Sedum rubrotinctum</Text>.
         {"\n"} {"\n"}
         Look ahead to see the <Text style={{fontWeight: "bold"}}>Mexican palo verde (<Text style={{fontStyle: "italic"}}>Parkinsonia aculeata</Text>)</Text>, 
         with its green bark and fine-textured canopy.

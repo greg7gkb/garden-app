@@ -21,10 +21,10 @@ export default function NavScreen({ navigation }) {
             <Text 
                 style={styles.bodyText}>
                 As you walk, you will be looking for brass markers 
-                to pair with the app descriptions. 
+                to pair with the app descriptions. The pictures will also help you find what you are looking for. Remember to swipe for more pictures, and scroll down for more text.
                 {'\n'}
                 To get started, enter through the Garden 
-                gates heading towards the patio, keep your eye out for Marker 1.
+                gates heading towards the patio, keep your eye out for Marker 1 on your right.
             </Text>
 
             { <Image source = {sampleMarker} style = {styles.markerPic}/>}
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
         paddingRight: 20,
         paddingBottom: 15,
         paddingTop: 35,
-        fontSize: 19,
+        fontSize: 18,
         lineHeight: 40,
     },
   });

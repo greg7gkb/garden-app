@@ -13,18 +13,17 @@ const text =
     <Text style={{ padding: 20, paddingBottom: 37, fontFamily: "Times New Roman", fontSize: 20 }}>   
         The spectacular multi branched cactus adjacent to the fence is from the genus 
         <Text style={{fontWeight: "bold", fontStyle: "italic"}}> Cereus</Text>, 
-        whose name is derived from the Latin word for “candle,” suggested by its form. 
+        whose name is derived from the Latin word for "candle," suggested by its form. 
         {"\n"} {"\n"}
         At its base is a horizontal tangle of <Text style={{fontWeight: "bold"}}>South American cacti, 
-        including the <Text style={{fontStyle: "italic"}}>Echinopsis</Text> ‘Cherry Red’ </Text>
+        including the <Text style={{fontStyle: "italic"}}>Echinopsis</Text> 'Cherry Red' </Text>
         with snake-like arms.
 
     </Text>
 
 const popUpText = 
     <Text style={{padding: 15, fontFamily: "Times New Roman", fontSize: 20}}>
-        These cacti take distinctively different forms, but 
-        <Text style={{fontWeight: "bold"}}> both are pollinated by bats.</Text>
+        Cacti have evolved to take on many different forms and appeal to a variety of pollinators, including birds, bees, and bats.
     </Text>
 
 const map = require('../../images/map/20.jpg')

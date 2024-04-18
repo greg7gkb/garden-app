@@ -123,9 +123,13 @@ bodyText: {
 },
 learnMoreText: {
     paddingLeft: 30,
-    paddingRight: 20,
-    paddingBottom: 10,
-    fontSize: 16,
-    lineHeight: 45,
+    paddingRight: 30,
+    paddingBottom: 20,
+    paddingTop: 20,
+    fontSize: 20,
+    lineHeight: 35,
+    textAlign: 'justify',
+    fontFamily: "Times New Roman", 
+    alignSelf: "center",
 },
 })
