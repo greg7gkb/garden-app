@@ -34,8 +34,12 @@ export default function EndScreen({navigation}) {
                     </Text>
                     <Text
                     style= {styles.learnMoreText}>
-                        {'\t'}Please consider becoming a member. Memberships help support our Garden and allow us to uphold our mission of education and preservation. 
-                        We appreciate the valuable support our Members provide and are eager to continue to share Ruth’s Garden with our growing community!
+                        {'\t'}Please Add at start - To learn more about the Garden and our many programs and events, please sign-up for our Ruth’s Garden with our {space}
+                    <Text/> 
+                    <Text style={styles.linkText}
+                        onPress={() => Linking.openURL('https://www.ruthbancroftgarden.org/join-our-mailing-list/')}>
+                        mailing list.
+                    </Text>
                         {'\n'}
                         {'\n'} For a deeper dive into our collection, our plants’ origins, and horticultural needs visit {space}
                     </Text>
