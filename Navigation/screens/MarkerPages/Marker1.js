@@ -21,8 +21,7 @@ const styles = {
 const text = 
     <Text style={{ padding: 20, fontFamily: "Times New Roman", fontSize: 20 }}>   
         This enormous plant is an <Text style={{fontWeight: "bold", fontStyle: "italic"}}>Agave franzosinii</Text>. 
-        Agaves are distinguished by their clusters of tough leaves, often with a spiny edges terminating in a sharp point. 
-        Be on the lookout for Agaves in various shapes and sizes as you walk the Garden.
+        Agaves are distinguished by their clusters of tough leaves, often with toothy edges terminating in a sharp point. 
         {"\n"} {"\n"}
         Standing in front of the marker, look up and to the right to see the 
         <Text style={{fontWeight: "bold"}}> 250-year-old Valley Oak (<Text style={{fontStyle: "italic"}}>Quercus lobata</Text>)</Text>.

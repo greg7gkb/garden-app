@@ -12,12 +12,12 @@ const images = [
 ]
 const text = 
     <Text style={{ padding: 20, paddingBottom: 37, fontFamily: "Times New Roman", fontSize: 20 }}>   
-        Straight ahead you will notice a large stand of Aloes <Text style={{fontWeight: "bold"}}>(Aloe arborescens)</Text>. 
+        Straight ahead you will notice a large stand of Aloes (<Text style={{fontWeight: "bold", fontStyle: "italic"}}>Aloe arborescens</Text>). 
         These winter bloomers provide color and a special treat for hummingbirds in the cold months. {"\n\n"}
 
-        Two other remarkable plants are in this bed. The <Text style={{fontWeight: "bold"}}>Eucalyptus kitsoniana </Text> 
-        with its wavy bark sits in the left corner of the bed. The <Text style={{fontWeight: "bold"}}>tree-like Hercules 
-        aloe (Aloe barberae x A. dichotoma)</Text> towers above the bed. 
+        Two other remarkable plants are in this bed. The <Text style={{fontWeight: "bold", fontStyle: "italic"}}>Eucalyptus kitsoniana </Text> 
+        with its wavy bark sits in the left corner of the bed. The <Text style={{fontWeight: "bold"}}>tree-like <Text style={{fontStyle: "italic"}}> 
+        Aloe</Text> 'Hercules' (<Text style={{fontStyle: "italic"}}>Aloe barberae x A. dichotoma</Text>)</Text> towers above the bed. 
     </Text>
 
 const popUpText = 
