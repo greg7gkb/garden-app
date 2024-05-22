@@ -121,7 +121,7 @@ export default function Marker(props) {
                         <View style={{flexDirection: 'row'}}>
                             {/* More Pictures */}
                             <TouchableHighlight onPress={() => {setPopUp(!popUp)}} style={MarkerStyle.button}>
-                                <Text style={MarkerStyle.buttonText}>More Pictures</Text>
+                                <Text style={MarkerStyle.buttonText}>Back to Pictures</Text>
                             </TouchableHighlight>
                             {/* Next Marker */}
                             <TouchableHighlight 

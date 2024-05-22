@@ -9,7 +9,6 @@ const images = [
     require('../../images/Marker_12_1.jpg'),
     require('../../images/Marker_12_2.jpg'),
     require('../../images/Marker_12_3.jpg'),
-    require('../../images/Marker_12_4.jpg'),
 ]
 const text = 
     <Text style={{ padding: 20, paddingBottom: 37, fontFamily: "Times New Roman", fontSize: 20 }}>   
