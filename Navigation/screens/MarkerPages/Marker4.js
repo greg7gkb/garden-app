@@ -19,7 +19,7 @@ const text =
 
 const popUpText = 
     <Text style={{padding: 15, fontFamily: "Times New Roman", fontSize: 20}}>
-        Aloes’ thick, fleshy leaves, and often toothy leaf edges also distinguish them from agaves.
+        Aloe’s thick, fleshy, sap filled leaves also distinguish them from Agaves.
         {"\n"} {"\n"}
         <Text style={{fontWeight: "bold"}}>Aloes are polycarpic (produce flowers season after season), 
         whereas the agave is monocarpic (blooms only once in its lifetime).</Text>

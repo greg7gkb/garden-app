@@ -7,8 +7,8 @@ Text.defaultProps.maxFontSizeMultiplier = 2.5
 
 const images = [
     require('../../images/NewMarker19_1.jpg'),
-    require('../../images/Marker_19_2.jpg'),
     require('../../images/Marker_19_3.jpg'),
+    require('../../images/Marker_19_2.jpg'),
 ]
 const text = 
     <Text style={{ padding: 20, paddingBottom: 37, fontFamily: "Times New Roman", fontSize: 20 }}>   
@@ -16,7 +16,7 @@ const text =
         <Text style={{fontWeight: "bold"}}> white silky hairs or spines, a strategy for deflecting the hot summer sun.</Text>
         {"\n"} {"\n"}
         Such specimens include <Text style={{fontWeight: "bold", fontStyle: "italic"}}> Cleistocactus, Oreocereus, </Text>
-        and the tiny ground-covering <Text style={{fontWeight: "bold", fontStyle: "italic"}}>Sempervivum arachnoideumm</Text>
+        and the tiny ground-covering <Text style={{fontWeight: "bold", fontStyle: "italic"}}>Sempervivum arachnoideumm </Text>
         that look to be covered in white cobwebs.
     </Text>
 

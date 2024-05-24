@@ -40,10 +40,10 @@ export default function HomeScreen({ navigation }) {
                 </Text>
                 <Text
                     style= {styles.learnMoreText}>
-                    To learn about our our mission, collection and programs: click {space}
+                    To learn about our our mission, collection and programs:{space}
                     <Text style={{color: 'blue'}}
                         onPress={() => Linking.openURL('https://www.ruthbancroftgarden.org/')}>
-                        here
+                        click here
                     </Text>
                 </Text>
                 <View style={styles.buttonText}>

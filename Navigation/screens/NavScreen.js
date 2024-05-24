@@ -1,6 +1,9 @@
 import * as React from 'react';
+import {useEffect} from 'react';
 import { View, Text, Image, StyleSheet, ScrollView, Linking, TouchableOpacity, ImageBackground} from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+
 
 
 const logoImage= require('../images/Logo.png');
@@ -8,7 +11,20 @@ const sampleMarker = require('../images/SampleMarker.jpg')
 const HOME_BG_IMG= require('../images/home_screen_blur.png');
 const HOME2_BG_IMG= require('../images/navScreenBG.png');
 
+
+
 export default function NavScreen({ navigation }) {
+    /**
+     * useEffect(() => {
+        navigation.setOptions({
+            headerLeft: () => (
+                <TouchableOpacity onPress={() => {navigation.navigate("HomeScreen")}}>
+                    <Ionicons name="chevron-back-outline" size={20}>Back</Ionicons>
+                </TouchableOpacity>
+            )
+        });
+    })
+     */
     return (
         <ImageBackground blurRadius={3} style = {styles.bgImg} source={HOME2_BG_IMG} resizeMode="cover">
         <ScrollView style = {styles.scrollStyle}>
