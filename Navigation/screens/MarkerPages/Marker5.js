@@ -15,15 +15,15 @@ const text =
     <Text style={{ padding: 20, paddingBottom: 37, fontFamily: "Times New Roman", fontSize: 20 }}>   
         <Text style={{fontWeight: "bold"}}>The Garden displays a thriving community of California native plants</Text>. 
         Look at the app pictures and see if you can find <Text style={{fontWeight: "bold", fontStyle: "italic"}}>Agave shawii </Text>
-        (<Text style={{fontStyle: "italic"}}>one of the few agaves native to the state</Text>), 
-        the iconic <Text style={{fontWeight: "bold"}}>Joshua tree</Text> (<Text style={{fontStyle: "italic"}}>Yucca brevifolia</Text>), 
+        (one of the few agaves native to the state), 
+        the iconic Joshua tree <Text style={{fontStyle: "italic", fontWeight: 'bold'}}>(Yucca brevifolia)</Text>, 
         and the chalky <Text style={{fontWeight: "bold", fontStyle: "italic"}}>Dudleya brittonii</Text>.
     </Text>
 
 const popUpText = 
     <Text style={{padding: 15, fontFamily: "Times New Roman", fontSize: 20}}>
         To improve drainage, create a natural look, and vary the topography,
-        <Text style={{fontWeight: "bold"}}> many tons of crushed rock from Mt. Diablo were laid to raise the profile of the Garden’s beds</Text>.
+        <Text style={{fontWeight: "bold"}}> many tons of crushed rock from Mt. Diablo were brought in to raise the profile of the Garden’s beds</Text>.
     </Text>
 
 // const text = 

@@ -17,7 +17,7 @@ const text =
        These plants are characterized by sharply hooked spines edging their stiff leaves, 
        which vary in color by species and can include green, silver, and purple.
        {"\n"} {"\n"}
-       On the other side of the path you will see more rosettes; this time the smooth leafed <Text style={{fontWeight: "bold"}}> 
+       On the other side of the path you will see more rosettes; this time the purple-spotted <Text style={{fontWeight: "bold"}}> 
        hybrid of <Text style={{fontStyle: "italic"}}>Agave</Text> and <Text style={{fontStyle: "italic"}}>Manfreda</Text>, 
        known as <Text style={{fontStyle: "italic"}}>Mangave</Text>.</Text>
     </Text>

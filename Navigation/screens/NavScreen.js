@@ -1,6 +1,9 @@
 import * as React from 'react';
+import {useEffect} from 'react';
 import { View, Text, Image, StyleSheet, ScrollView, Linking, TouchableOpacity, ImageBackground} from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+
 
 
 const logoImage= require('../images/Logo.png');
@@ -8,7 +11,20 @@ const sampleMarker = require('../images/SampleMarker.jpg')
 const HOME_BG_IMG= require('../images/home_screen_blur.png');
 const HOME2_BG_IMG= require('../images/navScreenBG.png');
 
+
+
 export default function NavScreen({ navigation }) {
+    /**
+     * useEffect(() => {
+        navigation.setOptions({
+            headerLeft: () => (
+                <TouchableOpacity onPress={() => {navigation.navigate("HomeScreen")}}>
+                    <Ionicons name="chevron-back-outline" size={20}>Back</Ionicons>
+                </TouchableOpacity>
+            )
+        });
+    })
+     */
     return (
         <ImageBackground blurRadius={3} style = {styles.bgImg} source={HOME2_BG_IMG} resizeMode="cover">
         <ScrollView style = {styles.scrollStyle}>
@@ -21,10 +37,10 @@ export default function NavScreen({ navigation }) {
             <Text 
                 style={styles.bodyText}>
                 As you walk, you will be looking for brass markers 
-                to pair with the app descriptions. 
+                to pair with the app descriptions. The pictures will also help you find what you are looking for. Remember to swipe for more pictures, and scroll down for more text.
                 {'\n'}
                 To get started, enter through the Garden 
-                gates heading towards the patio, keep your eye out for Marker 1.
+                gates heading towards the patio, keep your eye out for Marker 1 on your right.
             </Text>
 
             { <Image source = {sampleMarker} style = {styles.markerPic}/>}
@@ -91,7 +107,7 @@ const styles = StyleSheet.create({
         paddingRight: 20,
         paddingBottom: 15,
         paddingTop: 35,
-        fontSize: 19,
+        fontSize: 18,
         lineHeight: 40,
     },
   });

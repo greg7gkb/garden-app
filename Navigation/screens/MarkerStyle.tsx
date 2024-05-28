@@ -58,17 +58,18 @@ export const MarkerStyle = StyleSheet.create({
         alignSelf: 'center'
     },
     pagination: {
-        backgroundColor: 'grey', 
-        maxHeight: height/16, 
-        maxWidth: width/6, 
+        backgroundColor: 'rgb(217, 81, 31)', 
+        maxHeight: height/12, 
+        maxWidth: width/3, 
         alignSelf: 'flex-end', 
+
         marginRight:10, 
         marginTop: -50, 
         borderRadius: 10
     },
     paginationText: {
         color: 'white',
-        fontSize: 17,
+        fontSize: 20,
         padding: 5
     },
     image: {

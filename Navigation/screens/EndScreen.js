@@ -33,15 +33,19 @@ export default function EndScreen({navigation}) {
                         style={styles.titleText}> We hope you enjoyed this {'\n'} self-guided tour. 
                     </Text>
                     <Text
-                    style= {styles.learnMoreText}>
-                        {'\t'}Please consider becoming a member. Memberships help support our Garden and allow us to uphold our mission of education and preservation. 
-                        We appreciate the valuable support our Members provide and are eager to continue to share Ruth’s Garden with our growing community!
-                        {'\n'}
-                        {'\n'} For a deeper dive into our collection, our plants’ origins, and horticultural needs visit {space}
-                    </Text>
+                    style= {styles.bodyText}>
+                        {'\t'}To learn more about the Garden and our many programs and events, please sign-up for our Ruth’s Garden with our{space}
+                    <Text/> 
                     <Text style={styles.linkText}
-                            onPress={() => Linking.openURL('https://www.ruthbancroftgarden.org/garden/')}>
-                            here.
+                        onPress={() => Linking.openURL('https://www.ruthbancroftgarden.org/join-our-mailing-list/')}>
+                        mailing list.
+                    </Text>
+                        {'\n'}
+                        {'\n'} We also encourage you to consider becoming a member. Membership helps support the Garden and uphold our mission of preservation and education. It also comes with many benefits. Learn more{space}
+                        <Text style={styles.linkText}
+                        onPress={() => Linking.openURL('https://www.ruthbancroftgarden.org/membership/')}>
+                        here.
+                        </Text>
                     </Text>
                     <View style={styles.buttonText}>
                 </View>
@@ -73,7 +77,7 @@ const styles = StyleSheet.create({
     },
     linkText: {
         color: 'blue', 
-        fontSize: 16, 
+        fontSize: 20, 
         lineHeight: 30,
         paddingLeft: 30, 
         fontWeight: 'bold'
@@ -89,9 +93,10 @@ const styles = StyleSheet.create({
         paddingTop: 30,
         paddingBottom: 20,
         lineHeight: 35,
-        fontSize: 25, 
+        fontSize: 28, 
         padding: 10,
         fontWeight: 'bold',  
+        fontFamily: "Times New Roman", 
         textAlign: 'center',
     },
     container: {
@@ -103,13 +108,14 @@ const styles = StyleSheet.create({
     },
     bodyText: {
         paddingLeft: 30,
-        paddingRight: 20,
+        paddingRight: 30,
         paddingBottom: 20,
-        paddingTop: 40,
-        fontSize: 25,
+        paddingTop: 20,
+        fontSize: 20,
         lineHeight: 30,
-        fontWeight: 'bold',
-        textAlign: 'justify'
+        textAlign: 'justify',
+        fontFamily: "Times New Roman", 
+        alignSelf: "center", 
     },
     scrollStyle: {
         flex: 1,

@@ -1,3 +1,4 @@
+
 import * as React from 'react';
 import { View, Text, Image, FlatList, StyleSheet} from 'react-native';
 import Marker from '../Marker';
@@ -12,7 +13,7 @@ const images = [
 
 const text = 
     <Text style={{ padding: 20, paddingBottom: 37, fontFamily: "Times New Roman", fontSize: 20 }}>   
-        Just behind the rock, is an <Text style={{ fontWeight: "bold" }}>
+        Just behind the rock is an <Text style={{ fontWeight: "bold" }}>
         aloe with unusual pagoda-like leaves, named <Text style={{ fontStyle: "italic" }}>
         Aloe</Text> ‘Hellskloof Bells.’</Text>
         {"\n"}{"\n"}
