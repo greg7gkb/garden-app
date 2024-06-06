@@ -80,6 +80,7 @@ const styles = StyleSheet.create({
         fontSize: 20, 
         lineHeight: 30,
         paddingLeft: 30, 
+        padding:20,
         fontWeight: 'bold'
     },
     boxRound: {

@@ -9,7 +9,7 @@ export const MarkerStyle = StyleSheet.create({
         borderColor: "#efe4be", 
         borderWidth: 5, 
         borderRadius: 15, 
-        marginTop: -25, 
+        marginTop: -1, 
         marginBottom: 10, 
         backgroundColor: 'rgb(88, 141, 152)', 
         maxWidth: width/1.2, 

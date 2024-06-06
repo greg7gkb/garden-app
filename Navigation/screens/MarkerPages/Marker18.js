@@ -18,7 +18,7 @@ const text =
         You can see the <Text style={{fontWeight: "bold"}}>three principal forms cacti</Text> take: 
         the <Text style={{fontWeight: "bold"}}>spherical barrel</Text> cacti, 
         the <Text style={{fontWeight: "bold"}}>columnar cacti</Text>, 
-        and the <Text style={{fontWeight: "bold"}}>paddle cactus.</Text>
+        and the <Text style={{fontWeight: "bold"}}>paddle cacti.</Text>
     </Text>
 const popUpText = 
     <Text style={{padding: 15, fontFamily: "Times New Roman", fontSize: 20}}>
