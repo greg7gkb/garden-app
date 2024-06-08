@@ -16,9 +16,6 @@ const text =
         in the groundcover tapestry of the blue-gray <Text style={{fontWeight: "bold",fontStyle: "italic"}}>Euphorbia rigida</Text>, 
         purple <Text style={{fontWeight: "bold",fontStyle: "italic"}}>Tradescantia pallida </Text>'Purple Heart', and 
         bright green (to red) <Text style={{fontWeight: "bold", fontStyle: "italic"}}>Sedum rubrotinctum</Text>.
-        {"\n"} {"\n"}
-        Look ahead to see the <Text style={{fontWeight: "bold"}}>Mexican palo verde (<Text style={{fontStyle: "italic"}}>Parkinsonia aculeata</Text>)</Text>, 
-        with its green bark and fine-textured canopy.
     </Text>
 
 const popUpText = 

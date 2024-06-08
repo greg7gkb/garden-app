@@ -8,7 +8,7 @@ Text.defaultProps.maxFontSizeMultiplier = 2.3
 const images = [
     require('../../images/NewMarker_24_1.jpg'),
     require('../../images/Marker_24_1.jpg'),
-    require('../../images/Marker_24_2.jpg')
+    require('../../images/nm_24_3.jpg')
 ]
 const text = 
     <Text style={{ padding: 20, paddingBottom: 37, fontFamily: "Times New Roman", fontSize: 20 }}>   

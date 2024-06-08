@@ -95,7 +95,7 @@ const DATA = [
     {
       id: "13",
       title: "Marker 13",
-      plant: "Dykia encholiriodes",
+      plant: "Dyckia encholirioides",
       imge: require('../images/thumbnail_images/M13.jpg'),
       whereTo: 'Marker 13'
     },
@@ -144,7 +144,7 @@ const DATA = [
     {
       id: "20",
       title: "Marker 20",
-      plant: "Cereus species",
+      plant: "Cereus hildmannianus",
       imge: require('../images/thumbnail_images/M20.jpg'),
       whereTo: 'Marker 20'
     },

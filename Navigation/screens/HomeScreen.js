@@ -10,55 +10,54 @@ space = ' ';
 
 export default function HomeScreen({ navigation }) {
     return (
+        <>
         <ScrollView>
-    <View style = {styles.scrollStyle}>
-            <ImageBackground blurRadius={12} style = {styles.bgImg} source={HOME2_BG_IMG} resizeMode="cover">
-            <LinearGradient
-                colors={['transparent',"#efe4be"]}
-                end = {{x:0.5, y: 0.35}}
-               //locations={[0.1, 0.7, 0.2]}
-                style={styles.linearGradient}
-            />
-            <View /> 
-            <View /> 
-            <Image source = {logoImage} style = {styles.container}/>
-            <View style={styles.addInfo}>
-                <View style={styles.titleblock}>
-                    <Text style={styles.titleText}>Welcome to the Garden</Text>
-                </View>
-                    <Text
-                        style={styles.bodyText}>
-                        This self-guided tour will offer an introduction to some of the iconic plants of the Garden.
-                    </Text>
-                <Text
-                    style= {styles.learnMoreText}>
-                    To learn more about Ruth herself:{space}
-                    <Text style={{color: 'blue'}}
-                        onPress={() => Linking.openURL('https://www.ruthbancroftgarden.org/ruth-bancroft/')}>
-                        click here
-                    </Text>
-                </Text>
-                <Text
-                    style= {styles.learnMoreText}>
-                    To learn about our our mission, collection and programs:{space}
-                    <Text style={{color: 'blue'}}
-                        onPress={() => Linking.openURL('https://www.ruthbancroftgarden.org/')}>
-                        click here
-                    </Text>
-                </Text>
-                <View style={styles.buttonText}>
-                </View>
+        <View style = {styles.scrollStyle}>
+                <ImageBackground blurRadius={12} style = {styles.bgImg} source={HOME2_BG_IMG} resizeMode="cover">
+                <LinearGradient
+                    colors={['transparent',"#efe4be"]}
+                    end = {{x:0.5, y: 0.3}}
+                //locations={[0.1, 0.7, 0.2]}
+                    style={styles.linearGradient}
+                />
+                <View /> 
+                <View /> 
+                <Image source = {logoImage} style = {styles.container}/>
                 <View style={styles.addInfo}>
-                <TouchableOpacity
-                    style = {styles.button}
-                    onPress = {()=>navigation.navigate("NavScreen")}>
-                    <Text style = {styles.buttonText}> Go to Guide </Text>
-                </TouchableOpacity>
+                    <View style={styles.titleblock}>
+                        <Text style={styles.titleText}>Welcome to the Garden</Text>
+                    </View>
+                        <Text
+                            style={styles.bodyText}>
+                            This self-guided tour will offer an introduction to some of the iconic plants of the Garden.
+                        </Text>
+                    <Text
+                        style= {styles.learnMoreText}>
+                        To learn more about Ruth herself:{space}
+                        <Text style={{color: 'blue'}}
+                            onPress={() => Linking.openURL('https://www.ruthbancroftgarden.org/ruth-bancroft/')}>
+                            click here.
+                        </Text>
+                        To learn about our our mission, collection and programs:{space}
+                        <Text style={{color: 'blue'}}
+                            onPress={() => Linking.openURL('https://www.ruthbancroftgarden.org/')}>
+                            click here
+                        </Text>
+                    </Text>
+                    <View style={styles.buttonText}>
+                    </View>
                 </View>
+                </ImageBackground>   
             </View>
-            </ImageBackground>   
-        </View>
+            <View style={styles.addInfo}>
+            <TouchableOpacity
+                style = {styles.button}
+                onPress = {()=>navigation.navigate("NavScreen")}>
+                <Text style = {styles.buttonText}> Go to Guide </Text>
+            </TouchableOpacity>
+            </View>
         </ScrollView>
+        </>
         
     );
 }
@@ -70,17 +69,18 @@ const styles = StyleSheet.create({
        // flex: 1, 
         alignItems: 'center', 
         justifyContent: 'center', 
-        backgroundColor: "efe4be"
+        backgroundColor: "efe4be",
     },
     bgImg: {
         // paddingTop: 10, // comment out these for dif formatting
         // paddingBottom: 100,
-        // backgroundColor: 'efe4be'
+        backgroundColor: 'efe4be'
     },
     linearGradient: {
         position: 'absolute',
         width: '100%', 
-        height: '129%',
+        height: '170%',
+        
     },
     button: {
         backgroundColor: "rgb(217, 81, 31)",
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
     container: {
         resizeMode: 'contain',
        // flex: 0.35,
-        height:  185, // percentile heights was giving problems
+        height:  165, // percentile heights was giving problems
         paddingTop: 10,
         width: '100%',
         justifyContent: 'center',        
@@ -121,8 +121,7 @@ const styles = StyleSheet.create({
         marginTop: 10,
         paddingLeft: 30,
         paddingRight: 20,
-        paddingTop: 30,
-        paddingBottom: 15,
+        paddingTop: 20,
         fontSize: 20,
         lineHeight: 30,
         fontWeight: 'bold',
