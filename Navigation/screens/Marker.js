@@ -168,7 +168,7 @@ export default function Marker(props) {
 
     function prevMarker() {
         if (props.num == 1) {
-            props.navigation.navigate('Markers')
+            props.navigation.navigate('Markers List')
          } else {
              props.navigation.navigate('Marker ' + (eval(props.num) - 1))
          }
