@@ -19,7 +19,7 @@ import PastNextScreen from './screens/PastNextScreen';
 const HomeName = 'Home Navigation';
 const NavName = 'Guide';
 const MapName = 'Map';
-const MarkerName = 'Markers';
+const MarkerName = 'Markers List';
 const EndName = 'EndScreen';
 
 const Tab = createBottomTabNavigator();
@@ -61,7 +61,7 @@ function MainStackNavigator() {
   function MiniStackNavigator() {
     return(
         //<NavigationContainer independent={true} theme={navTheme} screenOptions={headerStyle={backgroundColor:"#90C6CA"}}>
-            <Stack.Navigator initialRouteName='./screens/HomeScreen' screenOptions={() => ({headerStyle: {backgroundColor:"#90C6CA"}, headerShown: false,
+        <Stack.Navigator initialRouteName='./screens/HomeScreen' screenOptions={() => ({headerStyle: {backgroundColor:"#90C6CA"}, headerShown: false,
                 tabBarStyle: {backgroundColor: "#90C6CA", padding: 10, height: 90},
                 tabBarLabelStyle: {fontSize: 12}})}>
             <Stack.Screen name = "HomeScreen" component ={HomeScreen}/>
