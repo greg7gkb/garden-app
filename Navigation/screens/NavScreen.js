@@ -5,7 +5,6 @@ import { LinearGradient } from 'expo-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 
-
 const logoImage= require('../images/Logo.png');
 const sampleMarker = require('../images/SampleMarker.jpg')
 const HOME_BG_IMG= require('../images/home_screen_blur.png');
@@ -47,7 +46,7 @@ export default function NavScreen({ navigation }) {
             <View style = {styles.buttonText}>
                 <TouchableOpacity
                     style = {styles.button}
-                    onPress = {() => navigation.navigate('Markers')}>
+                    onPress = {() => navigation.navigate('Markers List')}>
                     <Text style = {styles.buttonText}> Go to Tour </Text>
                 </TouchableOpacity>
             </View>   
